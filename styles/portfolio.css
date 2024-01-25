@@ -87,34 +87,87 @@ main {
 }
 
 .info-list {
-    text-align: center;
+  text-align: center;
   display: flex;
   justify-content: space-around;
 }
-.info-title{
-    font-size: 20px;
-    color: #757575;
+.info-title {
+  font-size: 20px;
+  color: #757575;
 }
-.info-details{
-    font-size: 20px;
-    font-weight: 700;
-    color: #474747;
+.info-details {
+  font-size: 20px;
+  font-weight: 700;
+  color: #474747;
 }
 .me {
-    text-align: center;
+  text-align: center;
   color: #181818;
   font-size: 35px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-.medis{
-    text-align: center;
-    margin-bottom: 50px;
-    text-align: center;
+.medis {
+  text-align: center;
+  margin-bottom: 50px;
   color: #757575;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
   padding: 0 116px;
+}
+.skill-container {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 130px;
+}
+.skill-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.skill-description {
+  font-size: 16px;
+  color: #757575;
+}
+.skills {
+  padding: 30px 33px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.resume-section .section-title {
+  margin-bottom: 113px;
+}
+.resume {
+  display: flex;
+  margin-bottom: 50px;
+}
+.det1 {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.det2{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.det3{
+    color:#757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.det4{
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+.cvbutton{
+    text-align: center;
+    margin-bottom: 113px;
 }
