@@ -1,27 +1,47 @@
 * {
   font-family: "Open Sans", sans-serif;
 }
+
 /*header and navigation styles*/
 .nav-title {
   font-size: 45px;
   font-weight: 800;
 }
+
 .text-primary {
   color: #fd6e0a;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
   margin: 10px 200px;
 }
+.image{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.call{
+  height: 64px;
+  width: 160px;
+  color: #FD6E0A;
+font-size: 20px;
+font-weight: 700;
+background-color: transparent;
+border-radius: 5px;
+  border: 1px solid #FD6E0A;
+}
 nav li {
   list-style: none;
   margin-left: 50px;
 }
+
 nav ul {
   display: flex;
   align-items: center;
 }
+
 .btn-primary {
   height: 64px;
   border: 0;
@@ -32,27 +52,32 @@ nav ul {
   font-size: 20px;
   font-weight: 700;
 }
+
 .banner {
   margin: 0px 200px;
   display: flex;
   align-items: center;
 }
+
 .bnstl {
   font-size: 45px;
   font-weight: 600;
   margin-bottom: 5px;
 }
+
 .bntl {
   font-size: 85px;
   font-weight: 700;
   margin-bottom: 20px;
 }
+
 .bntxt {
   color: #757575;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
 }
+
 .header {
   background: #fff8f3;
   background-image: url("../images/header_bg.png"),
@@ -60,6 +85,7 @@ nav ul {
   background-repeat: no-repeat;
   background-position: bottom right, left;
 }
+
 .about {
   margin-top: 131px;
   margin-bottom: 131px;
@@ -67,12 +93,14 @@ nav ul {
   background: #fff8f3;
   padding: 131px 156px;
 }
+
 .section-title {
   text-align: center;
   margin-bottom: 30px;
   font-size: 35px;
   font-weight: 700;
 }
+
 .section-description {
   color: #757575;
   text-align: center;
@@ -81,6 +109,7 @@ nav ul {
   line-height: 30px;
   margin-bottom: 30px;
 }
+
 main {
   max-width: 1140px;
   margin: 0 auto;
@@ -91,15 +120,18 @@ main {
   display: flex;
   justify-content: space-around;
 }
+
 .info-title {
   font-size: 20px;
   color: #757575;
 }
+
 .info-details {
   font-size: 20px;
   font-weight: 700;
   color: #474747;
 }
+
 .me {
   text-align: center;
   color: #181818;
@@ -107,6 +139,7 @@ main {
   font-weight: 700;
   line-height: normal;
 }
+
 .medis {
   text-align: center;
   margin-bottom: 50px;
@@ -116,66 +149,106 @@ main {
   line-height: 30px;
   padding: 0 116px;
 }
+
 .skill-container {
   display: flex;
   gap: 24px;
   margin-bottom: 130px;
 }
+
 .skill-title {
   font-size: 20px;
   font-weight: 700;
   color: #181818;
   margin-bottom: 20px;
 }
+
 .skill-description {
   font-size: 16px;
   color: #757575;
 }
+
 .skills {
   padding: 30px 33px;
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
+
 .resume-section .section-title {
   margin-bottom: 113px;
 }
+
 .resume {
   display: flex;
   gap: 24px;
   margin-bottom: 50px;
 }
+
 .det1 {
   color: #474747;
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 30px;
 }
-.det2{
-    color: #474747;
-    font-size: 25px;
-    font-weight: 700;
+
+.det2 {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
 }
-.det3{
-    color:#757575;
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
+.det3 {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
-.det4{
-    color:#757575;
-    font-size: 16px;
-    font-weight: 400;
+
+.det4 {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
 }
-.cvbutton{
-    text-align: center;
-    margin-bottom: 113px;
+
+.cvbutton {
+  text-align: center;
+  margin-bottom: 113px;
 }
-.resume-item{
-    margin-top: 30px;
-    margin-bottom: 30px;
+
+.resume-item {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-footer {
-    background: #FFF8F3;
+
+.comm-container {
+  display: flex;
+  background: #FFF8F3;
+  gap: 100px;
+  padding: 130px 200px;
+}
+
+.con-img {
+  display: flex;
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.comm-container .section-title {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.comm-container input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+}
+
+input {
+  height: 64px;
 }
